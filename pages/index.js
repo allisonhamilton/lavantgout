@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>L'avant goût</title>
+        <title>{`L'avant goût`}</title>
         <meta
           name="description"
           content="L'avant goût une épicerie locaux à Montréal"
@@ -15,7 +15,7 @@ export default function Home() {
 
       <main>
         <Image src="/images/lavantgout.png" layout="fill" />
-        <h1>L'avant goût épicerie</h1>
+        <h1>{`L'avant goût épicerie`}</h1>
       </main>
     </div>
   );
