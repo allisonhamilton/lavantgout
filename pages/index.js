@@ -16,10 +16,10 @@ export default function Home() {
       <main className="main-container">
         <header className="header-container">
           <h1 className="title">Ouverture Bientot | Opening Soon</h1>
-          <p>Épicerie locaux à Point-St-Charles en Montréal</p>
+          <p>Vôtre épicerie locaux à Point-St-Charles en Montréal</p>
         </header>
         <Image
-          src="/images/lavantgout.png"
+          src="/images/lavantgout2.svg"
           className="background-image"
           layout="fill"
           priority={true}
@@ -28,7 +28,7 @@ export default function Home() {
           {`
             .header-container {
               width: 100%;
-              height: 100px;
+              height: 10%;
               color: white;
               background-color: #98a08e;
               text-align: center;
