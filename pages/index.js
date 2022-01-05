@@ -116,7 +116,7 @@ export default function Home() {
                 Open Monday to Friday 9am to 8pm
                 <br /> Saturday to Sunday 9am to 6pm
               </p>
-              <p className="contactus-text">514 927-4111</p>
+              <p className="contactus-text">514 419-1331</p>
             </div>
             <div className="contactus-img">
               <Image
