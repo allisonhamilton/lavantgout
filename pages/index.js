@@ -110,11 +110,11 @@ export default function Home() {
               </p>
               <p className="contactus-text">
                 Ouvert du lundi au vendredi de 9h-20h
-                <br /> le samedi et dimanche de 9h-18h
+                <br /> le samedi et dimanche de 9h-19h
               </p>
               <p className="contactus-text">
                 Open Monday to Friday 9am to 8pm
-                <br /> Saturday to Sunday 9am to 6pm
+                <br /> Saturday to Sunday 9am to 7pm
               </p>
               <p className="contactus-text">514 419-1331</p>
             </div>
