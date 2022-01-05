@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>{`L'Avant Goût épicerie`}</title>
+        <title>{`L’Avant Goût Épicerie`}</title>
         <meta
           name="description"
-          content="L'avant goût une épicerie locaux à Point-St-Charles"
+          content="Situé à Pointe-St-Charles, L’Avant Goût Épicerie est votre épicier de quartier."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -20,7 +20,7 @@ export default function Home() {
           <Image
             src="/images/lavantgout2.svg"
             layout="intrinsic"
-            alt="L'Avant Goût épicerie"
+            alt="L’Avant Goût Épicerie"
             priority={true}
             width={400}
             height={150}
