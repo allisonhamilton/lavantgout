@@ -1,0 +1,27 @@
+
+  ._title-h1 {
+  @apply text-center my-12 font-alt text-3xl;
+}
+
+._title-h3 {
+  @apply font-alt text-2xl mb-5;
+}
+
+._text-fr {
+  @apply font-bold mb-3;
+}
+
+@screen sm {
+  ._title-h1 {
+@apply text-5xl;
+
+}
+._text-fr {
+  @apply text-lg;
+}
+}
+
+._title-sm {
+    @apply font-alt text-lg;
+  }
+
