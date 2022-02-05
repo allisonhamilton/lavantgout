@@ -158,7 +158,7 @@ export default function Home() {
 					<div className="_width-site flex items-center justify-between">
 						<p className="">&copy; Tout droit résérvé 2022</p>
 						<p className="">
-							Fait avec ❤ par
+							Fait avec beaucoup d ❤ par
 							<a
 								href="https://www.linkedin.com/in/allison-e-hamilton/"
 								target="_blank"
