@@ -92,40 +92,41 @@ export default function Home() {
             </nav>
           </header>
         </div>
-        <div className="flex space-x-5 my-10 overflow-x-auto w-full h-[400px] sm:h-[456px] _no-scrollbar px-4">
-          {banner.map((img, i) => {
-            return (
-              // hidden relative sm:block
-              <div className="rounded-lg" key={`bannerimgs-${i}`}>
-                {!img.type && img.type !== "video" ? (
-                  <img
-                    className="rounded-lg w-full h-full object-left object-cover min-w-[300px] sm:min-w-[650px]"
-                    src={img.src}
-                    alt={img.alt}
-                  />
-                ) : (
-                  <video
-                    src={img.src}
-                    playsInline="autoplay"
-                    className="rounded-lg object-top object-cover min-w-[280px] sm:min-w-[400px] h-full"
-                    autoPlay
-                    muted={true}
-                    loop
-                    controls
-                  />
-                )}
-              </div>
-            );
-          })}
-          {/* <video
-              className="sm:hidden"
-              src="/assets/video/lavantgout-easter.mp4"
-              playsInline="autoplay"
-              autoPlay
-              muted={true}
-              loop
-              controls
-            ></video> */}
+        <div>
+          <div className="hidden sm:flex sm:space-x-5 sm:my-10 sm:overflow-x-auto sm:w-full h-[500px] _no-scrollbar sm:px-4">
+            {banner.map((img, i) => {
+              return (
+                // hidden relative sm:block
+                <div className="rounded-lg" key={`bannerimgs-${i}`}>
+                  {!img.type && img.type !== "video" ? (
+                    <img
+                      className="rounded-lg w-full h-full object-left object-cover min-w-[300px] sm:min-w-[650px]"
+                      src={img.src}
+                      alt={img.alt}
+                    />
+                  ) : (
+                    <video
+                      src={img.src}
+                      alt={img.alt}
+                      playsInline="autoplay"
+                      className="rounded-lg object-top object-cover min-w-[280px] sm:min-w-[400px] h-full"
+                      autoPlay
+                      muted={true}
+                      loop
+                      controls
+                    />
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          <div className="_width-site block sm:hidden rounded-lg max-h-fit">
+            <img
+              src="/assets/images/lavantgout-tastingevent.webp"
+              alt="L'Avant Gout Tasting Event April 9th"
+              className="rounded-lg"
+            />
+          </div>
         </div>
         <div className="_width-site">
           <section className="_width-module">
@@ -148,10 +149,22 @@ export default function Home() {
                 selection of local products from around the province.{" "}
               </p>{" "}
             </div>
-            <div className="text-center">
+            <div className="text-center hidden sm:block">
               <span>&#8226;</span>
               <span>&#8226;</span>
               <span>&#8226;</span>
+            </div>
+            <div className="block sm:hidden">
+              <video
+                src="/assets/video/lavantgout-easter.mp4"
+                alt="L'Avant Gout Épicerie Easter Goodies"
+                playsInline="autoplay"
+                className="rounded-lg"
+                autoPlay
+                muted={true}
+                loop
+                controls
+              />
             </div>
             <div className="w-full my-8">
               <p className="_text-fr">
@@ -167,10 +180,22 @@ export default function Home() {
                 items in bulk including local cleaning products.{" "}
               </p>
             </div>
-            <div className="text-center">
+            <div className="text-center hidden sm:block">
               <span>&#8226;</span>
               <span>&#8226;</span>
               <span>&#8226;</span>
+            </div>
+            <div className="block sm:hidden">
+              <video
+                src="/assets/video/lavantgout-video.mp4"
+                alt="L'Avant Gout Épicerie viens nous visiter"
+                playsInline="autoplay"
+                className="rounded-lg"
+                autoPlay
+                muted={true}
+                loop
+                controls
+              />
             </div>
             <div className="w-full my-8">
               <p className="_text-fr">
