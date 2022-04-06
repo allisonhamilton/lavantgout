@@ -1,0 +1,21 @@
+._no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+._no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+._width-site {
+  @apply max-w-[1200px] px-4 mx-auto;
+}
+
+._width-module {
+  @apply max-w-[800px] mx-auto;
+}
+
+._safari-overflow-fix {
+  -webkit-overflow-scrolling: touch;
+}
