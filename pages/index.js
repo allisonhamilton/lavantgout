@@ -93,10 +93,10 @@ export default function Home() {
           </header>
         </div>
         <div className="flex space-x-5 my-10 overflow-x-auto w-full h-[400px] sm:h-[456px] _no-scrollbar px-4">
-          {banner.map((img) => {
+          {banner.map((img, i) => {
             return (
               // hidden relative sm:block
-              <div className="rounded-lg">
+              <div className="rounded-lg" key={`bannerimgs-${i}`}>
                 {!img.type && img.type !== "video" ? (
                   <img
                     className="rounded-lg w-full h-full object-left object-cover min-w-[300px] sm:min-w-[650px]"
