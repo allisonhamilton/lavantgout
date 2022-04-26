@@ -100,7 +100,7 @@ export default function Home() {
                 <div className="rounded-lg" key={`bannerimgs-${i}`}>
                   {!img.type && img.type !== "video" ? (
                     <img
-                      className="rounded-lg w-full h-full object-left object-cover min-w-[300px] sm:min-w-[650px]"
+                      className="rounded-lg w-full h-full object-left object-cover min-w-[300px] sm:min-w-[810px]"
                       src={img.src}
                       alt={img.alt}
                     />
@@ -122,8 +122,8 @@ export default function Home() {
           </div>
           <div className="_width-site block sm:hidden rounded-lg max-h-fit">
             <img
-              src="/assets/images/lavantgout-tastingevent.webp"
-              alt="L'Avant Gout Tasting Event April 9th"
+              src="/assets/images/promos/tastingevent-0430.webp"
+              alt="L'Avant Gout Tasting Event April 30th"
               className="rounded-lg"
             />
           </div>
@@ -156,8 +156,8 @@ export default function Home() {
             </div>
             <div className="block sm:hidden">
               <video
-                src="/assets/video/lavantgout-easter.mp4"
-                alt="L'Avant Gout Épicerie Easter Goodies"
+                src="/assets/video/promos/wine-pizza-promo-0430.mp4"
+                alt="L'Avant Gout Épicerie Wine Promotion"
                 playsInline="autoplay"
                 className="rounded-lg"
                 autoPlay

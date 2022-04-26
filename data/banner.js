@@ -1,12 +1,12 @@
 const banner = [
   {
     type: "video",
-    src: "/assets/video/lavantgout-easter.mp4",
-    alt: "L'Avant Gout Épicerie Easter Goodies",
+    src: "/assets/video/promos/wine-pizza-promo-0430.mp4",
+    alt: "L'Avant Gout Épicerie Wine Promotion",
   },
   {
-    src: "/assets/images/lavantgout-tastingevent.webp",
-    alt: "L'Avant Gout Épicerie April 9th Tasting Event",
+    src: "/assets/images/promos/tastingevent-0430.webp",
+    alt: "L'Avant Gout Épicerie April 30th Tasting Event",
   },
   // { src: "/assets/images/figtree.jpg", alt: "L'Avant Gout Épicerie Fig Tree" },
   {
